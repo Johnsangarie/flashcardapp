@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B8D4"
+    tools:context="${packageName}.${activityClass}">
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="351dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="138dp"
+        android:text="what does Repeated execution of a set of statements means in python"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/welcome-message"
+        android:layout_width="309dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="57dp"
+        android:text="Welcome to Python Flash_Card App"
+        android:textColor="#D50000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+</RelativeLayout>
